@@ -3,7 +3,7 @@ package br.ada.aulas.loja;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class main {
+public class Main {
 
     static Scanner scanner = new Scanner(System.in);
     static boolean continuacao = true;

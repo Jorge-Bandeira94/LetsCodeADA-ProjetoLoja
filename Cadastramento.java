@@ -53,7 +53,7 @@ public class Cadastramento {
                 case 1 -> {
                     Album albumMusical = new Album();
                     System.out.println("Você escolheu Album Musical, preencha os dados solicitados");
-                    int id = random.nextInt(1, 1000);
+                    int id = random.nextInt(1, 100);
 
                     System.out.println(" Nome: ");
                     scanner.nextLine();
@@ -85,7 +85,7 @@ public class Cadastramento {
                 case 2 -> {
                     Filme movie = new Filme();
                     System.out.println("Você escolheu Filme, preencha os dados solicitados");
-                    int id = random.nextInt(1, 1000);
+                    int id = random.nextInt(101, 200);
 
                     System.out.println(" Nome: ");
                     scanner.nextLine();
@@ -121,7 +121,7 @@ public class Cadastramento {
                 case 3 -> {
                     Brinquedo brinquedo = new Brinquedo();
                     System.out.println("Você escolheu brinquedo, preencha os dados solicitados");
-                    int id = random.nextInt(1, 1000);
+                    int id = random.nextInt(201, 300);
                     System.out.println(" Tipo: ");
                     scanner.nextLine();
                     String tipo = scanner.nextLine();
@@ -143,7 +143,7 @@ public class Cadastramento {
                 case 4 -> {
                     Jogo jogo = new Jogo();
                     System.out.println("Você escolheu Jogo, preencha os dados solicitados");
-                    int id = random.nextInt(1, 1000);
+                    int id = random.nextInt(301, 400);
                     System.out.println(" Nome: ");
                     scanner.nextLine();
                     String nome = scanner.nextLine();
@@ -174,7 +174,7 @@ public class Cadastramento {
                 case 5 -> {
                     Livro livro = new Livro();
                     System.out.println("Você escolheu Livro, preencha os dados solicitados");
-                    int id = random.nextInt(1, 1000);
+                    int id = random.nextInt(401, 500);
                     System.out.println(" Nome: ");
                     scanner.nextLine();
                     String nome = scanner.nextLine();
